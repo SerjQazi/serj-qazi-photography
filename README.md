@@ -1,1 +1,1 @@
-# Serj Qazi Photography
+# Photography Portfolio - By Serj Qazi
