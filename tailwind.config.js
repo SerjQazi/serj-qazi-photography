@@ -12,10 +12,19 @@ export default {
       xl: '1440px',
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      signature: ['midnight-signature', 'cursive'],
+      neon: ['neon-absolute', 'sans'],
+      orbitron: ['Orbitron', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'cream': '#D9D9D9',
+        'signature-blue': '#343A40',
+        'faded-gray': '#6C757D',
+        'platinum': '#8D8D8D',
+
+      },
+    },
   },
   plugins: [],
 }

@@ -1,13 +1,16 @@
+import { BrowserRouter } from 'react-router-dom';
+
 import Header from './components/Header';
+import FilmStrip from './components/FilmStrip';
+import About from './components/About';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <h1 className="m-4 p-10 text-3xl font-bold underline">Hello world!</h1>
-
-      <h2>Supreme</h2>
-    </>
+      <FilmStrip />
+      <About />
+    </BrowserRouter>
   );
 }
 
