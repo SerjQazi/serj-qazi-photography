@@ -1,5 +1,6 @@
 const images = {
   portrait: '../images/ai-portrait.jpg',
+  
   photo1: '../images/DSC08832.jpg',
   photo2: '../images/DSC07453-2.jpg',
   photo3: '../images/DSC08344.jpg',

@@ -14,3 +14,8 @@
   font-family: 'midnight-signature';
   src: url('./fonts/midnight-signature.otf');
 }
+
+.verticalText {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
