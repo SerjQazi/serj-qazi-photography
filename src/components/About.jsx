@@ -2,7 +2,10 @@ import images from '../../public/images/index.js';
 
 const About = () => {
   return (
-    <section className="font-orbitron text-signature-blue bg-cream flex flex-col items-center justify-center py-16">
+    <section
+      id="about"
+      className="font-orbitron text-signature-blue bg-cream flex flex-col items-center justify-center py-16"
+    >
       <div>
         <h2 className="mb-16 text-7xl tracking-widest">About Me</h2>
       </div>
@@ -25,7 +28,8 @@ const About = () => {
               href="https://serjqazi.com/"
             >
               serjqazi.com
-            </a>.
+            </a>
+            .
           </p>
           <a href=""></a>
         </div>

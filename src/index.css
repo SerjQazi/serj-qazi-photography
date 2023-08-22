@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
   font-family: 'neon-absolute';
   src: url('./fonts/neon-absolute-sans.ttf');

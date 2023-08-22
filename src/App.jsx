@@ -1,20 +1,18 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Header from './components/Header';
-import FilmStrip from './components/FilmStrip';
-import About from './components/About';
-import Contacts from './components/Contacts';
-import Footer from './components/Footer';
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <FilmStrip />
-      <About />
-      <Contacts />
-      <Footer />
-    </BrowserRouter>
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 

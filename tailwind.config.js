@@ -22,7 +22,8 @@ export default {
         'signature-blue': '#343A40',
         'faded-gray': '#6C757D',
         'platinum': '#8D8D8D',
-
+        'buttonLogo': '#F5EBE0',
+        'buttonBg': '#9a8c98',
       },
     },
   },
