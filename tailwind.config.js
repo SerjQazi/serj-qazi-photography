@@ -19,11 +19,12 @@ export default {
     extend: {
       colors: {
         'cream': '#D9D9D9',
-        'signature-blue': '#343A40',
-        'faded-gray': '#6C757D',
+        // 'headings': '#343A40',
+        'lavender': '#9a8c98',
+        'purple': '#4a4e69',
         'platinum': '#8D8D8D',
-        'buttonLogo': '#F5EBE0',
-        'buttonBg': '#9a8c98',
+        'button-logo': '#F5EBE0',
+        'button-bg': '#9a8c98',
       },
     },
   },

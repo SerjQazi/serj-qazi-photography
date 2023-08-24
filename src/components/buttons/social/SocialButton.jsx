@@ -6,21 +6,33 @@ const SocialButton = () => {
     <nav className="socialLinks">
       <ul>
         <li>
-          <a href="https://www.facebook.com/serjqaziphotograhpy" rel="noopener noreferrer" target="_blank">
+          <a
+            href="https://www.facebook.com/serjqaziphotograhpy"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <i aria-hidden="true">
               <RiFacebookFill />
             </i>
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/serjqazi_photography/" rel="noopener noreferrer" target="_blank">
+          <a
+            href="https://www.instagram.com/serjqazi_photography/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <i aria-hidden="true">
               <RiInstagramLine />
             </i>
           </a>
         </li>
         <li>
-          <a href="https://www.youtube.com/@serjqaziphotography" rel="noopener noreferrer" target="_blank">
+          <a
+            href="https://www.youtube.com/@serjqaziphotography"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <i aria-hidden="true">
               <RiYoutubeFill />
             </i>
