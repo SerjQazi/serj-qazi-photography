@@ -13,7 +13,7 @@ const Contacts = () => {
           Contacts
         </h2>
       </div>
-      <div className="flex w-full max-w-screen-xl items-center">
+      <div className="flex w-full px-4 max-w-screen-xl items-center">
         <form className="flex w-full flex-col items-center" action="">
           <input type="hidden" name="form-name" value="contact" />
 

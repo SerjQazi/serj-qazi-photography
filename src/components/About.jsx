@@ -9,7 +9,7 @@ const About = () => {
       <div>
         <h2 className="mb-16 text-7xl tracking-widest">About Me</h2>
       </div>
-      <div className="flex max-w-screen-xl flex-row">
+      <div className="flex p-4 max-w-screen-xl flex-row">
         <div className="w-1/2">
           <img src={images.portrait} alt="" />
         </div>

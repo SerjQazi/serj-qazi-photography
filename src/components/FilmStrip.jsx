@@ -3,7 +3,7 @@ import images from '../../public/images/index.js';
 const FilmStrip = () => {
   return (
     <section className="flex flex-col items-center py-16">
-      <div className="StripContainer grid max-w-screen-xl grid-cols-4 gap-x-2">
+      <div className="StripContainer grid p-4 max-w-screen-xl grid-cols-4 gap-x-2">
         <div className="FilmStrip">
           <div className="mb-2">
             <img className="hover:cursor-pointer" src={images.photo1} alt="" />

@@ -5,9 +5,13 @@ import SocialButton from './buttons/Social/SocialButton';
 import Navigation from '../components/navigation/Navigation.jsx';
 
 const Header = () => {
+
+  
+
+
   return (
     <div className="bg-cream flex justify-center pb-8 pt-16">
-      <div className=" flex w-full max-w-screen-xl flex-nowrap items-center justify-between">
+      <div className=" flex w-full p-4 max-w-screen-xl flex-nowrap items-center justify-between">
         <SocialButton />
 
         <div>
