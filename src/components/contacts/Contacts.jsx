@@ -62,7 +62,7 @@ const Contacts = () => {
           </div>
         </form>
 
-        <div className="verticalText mb-20 ml-14 flex h-[16.8em] w-[2.5em] flex-col items-center justify-center  text-2xl tracking-widest">
+        <div className="verticalText mb-[6.15rem] ml-14 flex h-[16.8em] w-[2.5em] flex-col items-center justify-center  text-2xl tracking-widest">
           <svg className="h-full w-full ">
             <a
               className="flex items-start justify-start"

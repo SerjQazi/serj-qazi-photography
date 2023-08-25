@@ -20,7 +20,7 @@ const Header = () => {
             className="flex flex-col items-center justify-center align-middle"
           >
             <h1 className="text-lavender font-signature text-8xl">Serj Qazi</h1>
-            <h2 className="text-faded-gray font-neon ml-5 mt-1 text-xl tracking-[.89em]">
+            <h2 className="text-purple font-neon ml-5 mt-1 text-xl tracking-[.89em]">
               PHOTOGRAPHY
             </h2>
           </Link>

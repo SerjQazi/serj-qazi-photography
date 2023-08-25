@@ -1,5 +1,5 @@
 const images = {
-  portrait: '../images/ai-portrait.jpg',
+  portrait: '../images/ai-portrait.png',
   
   photo1: '../images/DSC08832.jpg',
   photo2: '../images/DSC07453-2.jpg',

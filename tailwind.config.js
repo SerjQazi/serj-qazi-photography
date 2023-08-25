@@ -18,8 +18,9 @@ export default {
     },
     extend: {
       colors: {
+        // 'cream': '#EDEDE9',
+        // 'cream': '#D6CCC2',
         'cream': '#D9D9D9',
-        // 'headings': '#343A40',
         'lavender': '#9a8c98',
         'purple': '#4a4e69',
         'platinum': '#8D8D8D',
