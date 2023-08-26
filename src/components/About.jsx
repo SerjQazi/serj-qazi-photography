@@ -4,16 +4,16 @@ const About = () => {
   return (
     <section
       id="about"
-      className="font-orbitron text-lavender bg-cream flex flex-col items-center justify-center py-16"
+      className="flex flex-col items-center justify-center bg-cream py-16 font-orbitron text-lavender"
     >
       <div>
         <h2 className="mb-16 text-7xl tracking-widest">About Me</h2>
       </div>
-      <div className="flex p-4 max-w-screen-xl flex-row">
+      <div className="flex max-w-screen-xl flex-row p-4">
         <div className="w-1/2">
-          <img src={images.portrait} alt="" />
+          <img loading="lazy" src={images.portrait} alt="" />
         </div>
-        <div className="text-purple ml-32 w-1/2 py-20">
+        <div className="ml-32 w-1/2 py-20 text-purple">
           <p className="mb-8 text-3xl tracking-widest">I&apos;m Serj,</p>
           <p className="text-xl leading-[2.8rem] tracking-widest ">
             software developer turned photography enthusiast. Through my lens, I
@@ -24,7 +24,7 @@ const About = () => {
             journey as we explore life&apos;s exceptional moments together! ...
             more about me at{' '}
             <a
-              className="text-lavender font-bold tracking-widest"
+              className="font-bold tracking-widest text-lavender"
               href="https://serjqazi.com/"
             >
               serjqazi.com

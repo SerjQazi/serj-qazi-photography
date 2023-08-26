@@ -4,8 +4,8 @@ import './shiney.scss';
 
 const Shiney = () => {
   return (
-    <div className="font-orbitron tracking-widest uppercase">
-      <Link to="#contacts" className="button">
+    <div className="font-orbitron uppercase tracking-widest">
+      <Link to="/#contacts" className="button">
         Hire Me!
       </Link>
     </div>
