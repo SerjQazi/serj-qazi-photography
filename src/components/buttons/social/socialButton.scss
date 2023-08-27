@@ -5,6 +5,9 @@ nav.socialLinks {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    @media (max-width: 343px) {
+      justify-content: center;
+    }
 
     li {
       margin: 4px;
@@ -21,6 +24,11 @@ nav.socialLinks {
     transform: rotate(45deg);
     overflow: hidden;
     transition: all 0.5s ease-in;
+    @media (max-width: 343px) {
+      font-size: 22px;
+      width: 30px;
+      height: 30px;
+    }
   }
 
   ul li:before {

@@ -5,26 +5,26 @@ import SocialButton from './buttons/Social/SocialButton';
 import Navigation from '../components/navigation/Navigation.jsx';
 
 const Header = () => {
-
-  
-
-
   return (
-    <div className="bg-cream flex justify-center pb-8 pt-16">
-      <div className=" flex w-full p-4 max-w-screen-xl flex-nowrap items-center justify-between">
-        <SocialButton />
-
+    <div className="flex justify-center bg-cream pb-4 lg:pb-8 pt-8 lg:pt-16">
+      <div className=" flex w-full max-w-screen-xl flex-nowrap items-center justify-center md:justify-between px-2 md:px-4">
         <div>
+          <SocialButton />
+        </div>
+
+        <div className='mx-auto'>
           <Link
             to="/"
             className="flex flex-col items-center justify-center align-middle"
           >
-            <h1 className="text-lavender font-signature text-8xl">Serj Qazi</h1>
-            <h2 className="text-purple font-neon ml-5 mt-1 text-xl tracking-[.89em]">
+            <h1 className="font-signature text-5xl text-lavender xl:text-8xl">
+              Serj Qazi
+            </h1>
+            <h2 className="ml-5 mt-1 font-neon text-[0.6rem] tracking-[.89em] text-purple xl:text-xl">
               PHOTOGRAPHY
             </h2>
           </Link>
-          <div className="h-20 flex items-center justify-center">
+          <div className="flex h-14 lg:h-20 items-center justify-center">
             <Navigation />
           </div>
         </div>

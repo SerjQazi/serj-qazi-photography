@@ -4,7 +4,7 @@ import './shiney.scss';
 
 const Shiney = () => {
   return (
-    <div className="font-orbitron uppercase tracking-widest">
+    <div className="hidden font-orbitron uppercase tracking-widest md:block">
       <Link to="/#contacts" className="button">
         Hire Me!
       </Link>

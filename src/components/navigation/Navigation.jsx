@@ -14,26 +14,26 @@ const Navigation = () => {
   let navActive = active ? ' active' : '';
 
   return (
-    <ul className={`navigation${navActive} font-orbitron flex tracking-widest`}>
-      <li className="">
+    <ul className={`navigation${navActive} font-orbitron flex items-center tracking-widest`}>
+      <li className="pb-1">
         <NavLink
-          className="nav-link border-b-button-logo hover:border-b-purple mx-6 my-2 border-b-2"
+          className="nav-link pb-0.5 text-[0.7rem] text-xs border-b-button-logo hover:border-b-purple mx-2 md:mx-6 my-2 border-b-2"
           to="/portfolio"
         >
           Portfolio
         </NavLink>
       </li>
-      <li className="">
+      <li className="pb-1">
         <Link
-          className="nav-link border-b-button-logo hover:border-b-purple mx-6 my-2 border-b-2"
+          className="nav-link pb-0.5 text-[0.7rem] text-xs border-b-button-logo hover:border-b-purple mx-2 md:mx-6 my-2 border-b-2"
           to="/#about"
         >
           About
         </Link>
       </li>
-      <li className="">
+      <li className="pb-1">
         <Link
-          className="nav-link border-b-button-logo hover:border-b-purple mx-6 my-2 border-b-2"
+          className="nav-link pb-0.5 text-[0.7rem] text-xs border-b-button-logo hover:border-b-purple mx-2 md:mx-6 my-2 border-b-2"
           to="/#contacts"
         >
           Contacts
