@@ -17,7 +17,7 @@ const Navigation = () => {
     <ul className={`navigation${navActive} font-orbitron flex items-center tracking-widest`}>
       <li className="pb-1">
         <NavLink
-          className="nav-link pb-0.5 text-[0.7rem] text-xs border-b-button-logo hover:border-b-purple mx-2 md:mx-6 my-2 border-b-2"
+          className="nav-link pb-0.5 text-[0.65rem] sm:text-xs lg:text-base border-b-button-logo hover:border-b-purple mx-2 sm:mx-3 md:mx-6 my-2 border-b-2"
           to="/portfolio"
         >
           Portfolio
@@ -25,7 +25,7 @@ const Navigation = () => {
       </li>
       <li className="pb-1">
         <Link
-          className="nav-link pb-0.5 text-[0.7rem] text-xs border-b-button-logo hover:border-b-purple mx-2 md:mx-6 my-2 border-b-2"
+          className="nav-link pb-0.5 text-[0.65rem] sm:text-xs lg:text-base border-b-button-logo hover:border-b-purple mx-2 sm:mx-3 md:mx-6 my-2 border-b-2"
           to="/#about"
         >
           About
@@ -33,7 +33,7 @@ const Navigation = () => {
       </li>
       <li className="pb-1">
         <Link
-          className="nav-link pb-0.5 text-[0.7rem] text-xs border-b-button-logo hover:border-b-purple mx-2 md:mx-6 my-2 border-b-2"
+          className="nav-link pb-0.5 text-[0.65rem] sm:text-xs lg:text-base border-b-button-logo hover:border-b-purple mx-2 sm:mx-3 md:mx-6 my-2 border-b-2"
           to="/#contacts"
         >
           Contacts
