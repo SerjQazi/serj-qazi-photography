@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import Shiney from './buttons/shiney/Shiney';
-import SocialButton from './buttons/Social/SocialButton';
+import SocialButton from './buttons/Social/SocialButton.jsx';
 import Navigation from '../components/navigation/Navigation.jsx';
 
 const Header = () => {
