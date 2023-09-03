@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -6,16 +7,33 @@ export default {
   ],
   theme: {
     screens: {
-      sm: '480px',
+      sm: '640px',
       md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      lg: '1024px',
+      xl: '1280px',
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      signature: ['midnight-signature', 'cursive'],
+      neon: ['neon-absolute', 'sans'],
+      orbitron: ['Orbitron', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        // 'cream': '#EDEDE9',
+        // 'cream': '#D6CCC2',
+        'cream': '#D9D9D9',
+        'lavender': '#9a8c98',
+        'purple': '#4a4e69',
+        'platinum': '#8D8D8D',
+        'button-logo': '#F5EBE0',
+        'button-bg': '#9a8c98',
+      },
+      backgroundImage: {
+        'portraits': "url('./public/portfolio-assets/portrait-cover-img.jpg')",
+        'landscapes': "url('./public/portfolio-assets/landscape-cover-img.jpg')",
+        'engagements': "url('./public/portfolio-assets/couples-cover-img.jpg')",
+      }
+    },
   },
   plugins: [],
 }

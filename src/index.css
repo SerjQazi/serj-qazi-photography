@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'neon-absolute';
+  src: url('./fonts/neon-absolute-sans.ttf');
+}
+
+@font-face {
+  font-family: 'midnight-signature';
+  src: url('./fonts/midnight-signature.otf');
+}

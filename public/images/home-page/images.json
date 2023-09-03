@@ -1,0 +1,74 @@
+{
+  "stripOne": [
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC08832.jpg"
+    },
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC07453-2.jpg"
+    },
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC08344.jpg"
+    },
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC08118.jpg"
+    }
+  ],
+  "stripTwo": [
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC09135-3.jpg"
+    },
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC09085.jpg"
+    },
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC08767-2.jpg"
+    },
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC06719-3.jpg"
+    }
+  ],
+  "stripThree": [
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC08221.jpg"
+    },
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC08457.jpg"
+    },
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC08163.jpg"
+    },
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC09109.jpg"
+    }
+  ],
+  "stripFour": [
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC04733.jpg"
+    },
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC06773.jpg"
+    },
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC05557.jpg"
+    },
+    {
+      "text": "description of image",
+      "link": "../images/home-page/DSC04712.jpg"
+    }
+  ]
+}
