@@ -2,12 +2,13 @@ import { Link } from 'react-router-dom';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import ScrollTop from '../components/buttons/scrollTop/ScrollTop';
 
 const Portfolio = () => {
   return (
     <>
       <Header />
-
+      <ScrollTop />
       <section className="px-4 font-orbitron text-base uppercase text-white sm:text-3xl lg:text-6xl  ">
         <ul className="mx-auto max-w-screen-xl">
           <li className="bg-portraits mb-9 mt-14 bg-cover bg-center tracking-[0.5em] shadow-lg shadow-slate-500 duration-300 ease-in-out hover:scale-[1.01] hover:shadow-xl hover:shadow-slate-500 sm:mt-10">

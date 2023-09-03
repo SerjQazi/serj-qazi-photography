@@ -4,10 +4,12 @@ import About from '../components/About';
 import Contacts from '../components/contacts/Contacts';
 import Footer from '../components/Footer';
 
+import ScrollTop from '../components/buttons/scrollTop/ScrollTop';
 
 function Home() {
   return (
     <>
+      <ScrollTop />
       <Header />
       <FilmStrip />
       <About />
