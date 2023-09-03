@@ -6,14 +6,17 @@ const Contacts = () => {
   return (
     <section
       id="contacts"
-      className="font-orbitron text-lavender flex flex-col items-center justify-center py-8 lg:py-16"
+      className="flex flex-col items-center justify-center py-8 font-orbitron text-lavender lg:py-16"
     >
       <div>
-        <h2 id="/contacts" className="mb-8 lg:mb-16 text-4xl xl:text-7xl tracking-widest">
+        <h2
+          id="/contacts"
+          className="mb-8 text-4xl tracking-widest lg:mb-16 xl:text-7xl"
+        >
           Contacts
         </h2>
       </div>
-      <div className="flex w-full px-2 md:px-4 max-w-screen-xl items-center">
+      <div className="flex w-full max-w-screen-xl items-center px-2 md:px-4">
         <form className="flex w-full flex-col items-center" action="">
           <input type="hidden" name="form-name" value="contact" />
 
@@ -25,7 +28,7 @@ const Contacts = () => {
             id="name"
             name="name"
             placeholder="enter your full name"
-            className="text-lavender bg-cream placeholder-platinum focus:border-headings focus:headings mb-2 md:mb-4 w-full rounded-md px-2 md:px-4 py-2 md:py-4 text-[0.65rem] sm:text-xs md:text-sm lg:text-base tracking-widest shadow-sm focus:outline-none focus:ring-1"
+            className="focus:border-headings focus:headings mb-2 w-full rounded-md bg-cream px-2 py-2 text-[0.65rem] tracking-widest text-lavender placeholder-platinum shadow-sm focus:outline-none focus:ring-1 sm:text-xs md:mb-4 md:px-4 md:py-4 md:text-sm lg:text-base"
           />
 
           <label htmlFor="email" className="sr-only">
@@ -36,7 +39,7 @@ const Contacts = () => {
             id="email"
             name="email"
             placeholder="enter your email address"
-            className="text-lavender bg-cream placeholder-platinum focus:border-headings focus:headings mb-2 md:mb-4 w-full rounded-md px-2 md:px-4 py-2 md:py-4 text-[0.65rem] sm:text-xs md:text-sm lg:text-base tracking-widest shadow-sm focus:outline-none focus:ring-1"
+            className="focus:border-headings focus:headings mb-2 w-full rounded-md bg-cream px-2 py-2 text-[0.65rem] tracking-widest text-lavender placeholder-platinum shadow-sm focus:outline-none focus:ring-1 sm:text-xs md:mb-4 md:px-4 md:py-4 md:text-sm lg:text-base"
           />
 
           <label htmlFor="message" className="sr-only">
@@ -49,11 +52,11 @@ const Contacts = () => {
             placeholder="let's work together... how can I help?"
             cols="30"
             rows="8"
-            className="text-lavender bg-cream placeholder-platinum focus:border-headings focus:headings mb-2 md:mb-4 w-full resize-none rounded-md px-2 md:px-4 py-2 md:py-4 text-[0.65rem] sm:text-xs md:text-sm lg:text-base tracking-widest shadow-sm focus:outline-none focus:ring-1"
+            className="focus:border-headings focus:headings mb-2 w-full resize-none rounded-md bg-cream px-2 py-2 text-[0.65rem] tracking-widest text-lavender placeholder-platinum shadow-sm focus:outline-none focus:ring-1 sm:text-xs md:mb-4 md:px-4 md:py-4 md:text-sm lg:text-base"
           />
-          <div className="md:mt-4 flex h-[3.8em] items-center justify-center">
+          <div className="flex h-[3.8em] items-center justify-center md:mt-4">
             <button
-              className="button flex items-center justify-center text-[0.6rem] md:text-sm lg:text-lg uppercase tracking-[0.5em]"
+              className="button flex items-center justify-center text-[0.6rem] uppercase tracking-[0.5em] md:text-sm lg:text-lg"
               type="submit"
             >
               Send
@@ -62,7 +65,7 @@ const Contacts = () => {
           </div>
         </form>
 
-        <div className="verticalText mb-[4.2rem] md:mb-[6.15rem] ml-2 md:ml-4 lg:ml-6 xl:ml-8 flex h-[16.8em] w-[2.5em] flex-col items-center justify-center text-[0.8rem] md:text-xl tracking-widest">
+        <div className="verticalText mb-[4.2rem] ml-2 flex h-[16.8em] w-[2.5em] flex-col items-center justify-center text-[0.8rem] tracking-widest md:mb-[6.15rem] md:ml-4 md:text-xl lg:ml-6 xl:ml-8">
           <svg className="h-full w-full ">
             <a
               className="flex items-start justify-start"

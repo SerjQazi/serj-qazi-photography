@@ -26,7 +26,7 @@ const ScrollTop = () => {
       {top && (
         <button
           onClick={scrollUp}
-          className="pointer fixed bottom-5 right-5 z-10 h-14 w-14 rounded-full bg-lavender p-2 text-button-logo shadow-lg shadow-slate-500 duration-300 ease-in-out hover:scale-[1.05] hover:shadow-xl hover:shadow-slate-700"
+          className="pointer fixed bottom-5 right-5 z-10 h-9 w-9 sm:h-14 sm:w-14 rounded-full bg-lavender p-2 text-button-logo shadow-lg shadow-slate-500 duration-300 ease-in-out hover:scale-[1.05] hover:shadow-xl hover:shadow-slate-700"
         >
           <FaArrowUp />
         </button>

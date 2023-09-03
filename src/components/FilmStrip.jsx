@@ -1,4 +1,4 @@
-import data from '../../public/images/images.json';
+import data from '../../public/images/home-page/images.json';
 
 const FilmStrip = () => {
   return (
@@ -8,7 +8,7 @@ const FilmStrip = () => {
           {data.stripOne.map((item, index) => (
             <div key={index} className="mb-2">
               <img
-                className="hover:cursor-pointer w-full"
+                className="w-full hover:cursor-pointer"
                 loading="lazy"
                 src={item.link}
                 alt={item.text}
@@ -20,7 +20,7 @@ const FilmStrip = () => {
           {data.stripTwo.map((item, index) => (
             <div key={index} className="mb-2">
               <img
-                className="hover:cursor-pointer w-full"
+                className="w-full hover:cursor-pointer"
                 loading="lazy"
                 src={item.link}
                 alt={item.text}
@@ -32,7 +32,7 @@ const FilmStrip = () => {
           {data.stripThree.map((item, index) => (
             <div key={index} className="mb-2">
               <img
-                className="hover:cursor-pointer w-full"
+                className="w-full hover:cursor-pointer"
                 loading="lazy"
                 src={item.link}
                 alt={item.text}
@@ -44,7 +44,7 @@ const FilmStrip = () => {
           {data.stripFour.map((item, index) => (
             <div key={index} className="mb-2 last:mb-0">
               <img
-                className="hover:cursor-pointer w-full"
+                className="w-full hover:cursor-pointer"
                 loading="lazy"
                 src={item.link}
                 alt={item.text}
