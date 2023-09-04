@@ -1,10 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     screens: {
       sm: '640px',
@@ -21,20 +18,19 @@ export default {
       colors: {
         // 'cream': '#EDEDE9',
         // 'cream': '#D6CCC2',
-        'cream': '#D9D9D9',
-        'lavender': '#9a8c98',
-        'purple': '#4a4e69',
-        'platinum': '#8D8D8D',
+        cream: '#D9D9D9',
+        lavender: '#9a8c98',
+        purple: '#4a4e69',
+        platinum: '#8D8D8D',
         'button-logo': '#F5EBE0',
         'button-bg': '#9a8c98',
       },
       backgroundImage: {
-        "portraits": "url('./public/portfolio-assets/portrait-cover-img.jpg')",
-        "landscapes": "url('./public/portfolio-assets/landscape-cover-img.jpg')",
-        "engagements": "url('./public/portfolio-assets/couples-cover-img.jpg')",
-      }
+        portraits: "url('../public/portfolio-assets/portrait-cover-img.jpg')",
+        landscapes: "url('../public/portfolio-assets/landscape-cover-img.jpg')",
+        engagements: "url('../public/portfolio-assets/couples-cover-img.jpg')",
+      },
     },
   },
   plugins: [],
-}
-
+};
