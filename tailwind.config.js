@@ -29,9 +29,9 @@ export default {
         'button-bg': '#9a8c98',
       },
       backgroundImage: {
-        'portraits': "url('./public/portfolio-assets/portrait-cover-img.jpg')",
-        'landscapes': "url('./public/portfolio-assets/landscape-cover-img.jpg')",
-        'engagements': "url('./public/portfolio-assets/couples-cover-img.jpg')",
+        "portraits": "url('./public/portfolio-assets/portrait-cover-img.jpg')",
+        "landscapes": "url('./public/portfolio-assets/landscape-cover-img.jpg')",
+        "engagements": "url('./public/portfolio-assets/couples-cover-img.jpg')",
       }
     },
   },
